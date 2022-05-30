@@ -117,3 +117,8 @@ header .navbar.active{
 26. ẩn cái hình :  visibility: hidden;
 
 27. background linear-gradient
+
+28. Nếu bootstrap không nhận
+    .menu .nav-link{
+    color: wheat !important;
+}

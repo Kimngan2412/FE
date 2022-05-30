@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html.body{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    width: 100%;
+    background-color: blue;
+    /* position: fixed; */
+    z-index: 10;
+    transition: 0.5s;
+}
+.doimenu {
+    background-color: antiquewhite;
+    transition: 0.5s;
+}
+.menu .nav-link{
+    color: wheat !important;
+}
+.cd{
+    transition: 0.5s;
+}
+.codinh{
+    position: fixed;
+    transition: 0.5s;
+    top: 50px;
+    z-index: 10;
+}
