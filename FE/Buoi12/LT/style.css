@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.khoi
+{
+    width: 200px;
+    height: 350px;
+    border: 1px solid black;
+}
+.container{
+    font-size: 15px;
+}
+.container p{
+    font-size: 1.2em;
+}
+p span {
+    font-size: 1.5em;
+}
+
+.cha {
+    width: 20vw;
+    height: 50vh;
+    border: 2px solid red;
+}

@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.menu {
+  height: 100%;
+  width: 8%;
+  text-align: center;
+  position: relative;
+  float: left;
+  position: fixed;
+  background-color: white;
+}
+.menu img.logo {
+  width: 80%;
+  position: absolute;
+  top: 2%;
+  left: 10%;
+}
+.menu .iconmenu {
+  font-size: 40px;
+  position: absolute;
+  top: 45%;
+  left: 30%;
+}
+.menu .iconsearch {
+  font-size: 40px;
+  position: absolute;
+  bottom: 2%;
+  color: gray;
+  left: 30%;
+}
+.banner {
+  background-image: url(/Buoi5-LTap/homework/Img/photo-1489183988443-b37b7e119ba6.avif);
+  width: 92%;
+  height: 100%;
+  float: left;
+  background-size: 100% 100%;
+  margin-left: 8%;
+}
+.banner p {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  width: 400px;
+  transform: translateY(200px) translateX(200px);
+}
+.content {
+  width: 92%;
+  margin-left: 8%;
+}
+.content a.tieude {
+  font-size: 40px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 10px;
+  font-family: "Dancing Script", cursive;
+  color: black;
+}
+.content .khoitin {
+  width: 100%;
+}
+.content .khoitin .khoi {
+  display: inline-block;
+  width: 32%;
+  text-decoration: none;
+}
+.content .khoi .hinh {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+.content .khoi .hinh img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.content .khoi .hinh:hover img {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.content .khoi span {
+  display: inline-block;
+  color: black;
+  padding-top: 20px;
+}
+.content .khoi:hover span {
+  color: red;
+}
+/* ------------------CSS THIET BI---------------- */
+@media (max-width: 576px) {
+  .menu {
+    width: 100%;
+    height: 8%;
+  }
+  .menu img.logo {
+    width: 100px;
+    left: 10px;
+    top: 10px;
+  }
+  .menu .iconmenu {
+    top: 10px;
+    right: 10px;
+    left: 45%;
+  }
+  .menu .iconsearch {
+    top: 10px;
+    left: 90%;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,47 @@
+*{margin: 0;padding: 0;}
+.menu{
+    height: 42px;
+    background: #3b5998;
+    padding-left: 65%;                
+    width: 100%;
+}
+.phantu{
+    float: left;
+    width: 40px;
+    position: relative;
+}
+.bieutuong{    
+    width: 42px;    
+    font-size: 18px;    
+    padding: 10px 10px;    
+    cursor: pointer; 
+    transition: 0.4s;
+}
+.bieutuong i{
+    font-size: 20px;
+    cursor: pointer; 
+}
+.noidung{
+    position: absolute;
+    width: 141px;
+    font-size: 13px;
+    top: 43px;
+    right: 3px;
+    visibility: hidden;
+}
+.active{
+    visibility: visible;
+}
+.doimauicon{
+    color: aliceblue;
+}
+.noidung::after{
+    content: "";
+    position: absolute;
+    top:-20px;
+    width: 0;
+    height: 0;
+    border: 11px rgba(255, 215, 0, 0) solid;
+    border-bottom-color: white;
+    right: 8px;
+}

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap");
+.formLogin {
+  width: 400px;
+  height: 600px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.formLogin .avt {
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  /* background-color: black; */
+}
+.formLogin .avt img {
+  position: relative;
+  max-width: 100px;
+  margin-top: 50px;
+}
+.formLogin .main {
+  height: 500px;
+  background-color: antiquewhite;
+}
+.formLogin .main h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Pacifico", cursive;
+}
+.formLogin .main .user-pass p {
+  padding-left: 5px;
+  font-family: "Baloo 2", cursive;
+}
+.formLogin .main .user-pass .box {
+  height: 30px;
+  width: 350px;
+  margin-left: 20px;
+  border: none;
+  border-bottom: 5px solid #fff;
+  background: transparent;
+  margin-top: -15px;
+}
+.formLogin .main .btn {
+  height: 30px;
+  width: 250px;
+  margin: 20px auto;
+  display: block;
+  font-family: "Baloo 2", cursive;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.formLogin .main a {
+  font-family: "Baloo 2", cursive;
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+}
+.formLogin .main .btn:hover {
+  background-color: #f19066;
+}

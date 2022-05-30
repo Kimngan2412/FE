@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    width: 6%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+}
+.menu a.logo{
+    display: inline-block;
+    padding: 5px;
+
+}
+.menu a.logo img{
+    width: 90%;
+}
+.menu .bx-menu{
+    font-size: 40px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.menu .bx-search-alt {
+    font-size: 40px;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.content{
+    width: 94%;
+    height: 100%;
+    transform: translateX(6.2%);
+
+}
+.content .banner {
+    width: 100%;
+    height: 100%;   
+    position: relative;
+}
+
+.content .banner1{
+    width: 100%;
+    height: 100%;
+    background-image: url('./image/3.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+   
+}
+.active{
+    visibility: hidden;
+}
+.content .banner2{
+    width: 100%;
+    height: 100%;
+    background-image: url('./image/4.avif');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content .banner2 a {
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    padding: 10px 0px;
+    transition: 0.5s;
+    
+}
+.content .banner2 a:hover{
+    color:#c7ecee ;
+    padding-left: 5px;
+    transition: 0.5s;
+}
+.content .banner2 .khoi {
+    padding-top: 20%;
+    padding-left: 10%;
+}
+.banner1 .text {
+    font-size: 50px;
+    color: white;
+    width: 500px;
+    transform: translateY(300px) translateX(200px) ;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu .nutdn {
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+    padding-right: 5px;
+}
+.menu .nutdn:hover{
+    font-weight: bold;
+}
+
+.formdn {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(99, 98, 98, 0.074);
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 200px ;
+    visibility: hidden;    
+
+}
+.khoi{
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    border: 3px double rgba(255, 255, 0, 0.18);
+    background: rgba(34, 192, 195, 0.244);
+    /* background: linear-gradient(0deg, rgba(34,193,195,1) 31%, rgba(45,253,139,0.48503151260504207) 65%); */
+}
+.formdn.hienform{
+    visibility: visible;
+}
+table{
+    color: white;
+    padding-top: 10px;
+}
+.formdn .txt{
+    width: 250px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+/* xử lí js */
+.doimau{
+    background-color:#d63031;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <style>
+      .mk {
+        width: 250px;
+        height: 30px;
+        position: relative;
+        /* border: 1px solid red; */
+      }
+      .mk input {
+        width: 90%;
+        height: 80%;
+        padding-left: 10px;
+        transition: all 0.2s linear;
+        border: 1px solid blue;
+      }
+      .mk input:focus {
+        border-color: rgb(150, 8, 150);
+      }
+      .mk i {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 5%;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mk">
+      <input type="password" name="" id="" placeholder="Enter your password" />
+      <i class="fa-solid fa-eye eye-open"></i>
+      <i class="fa-solid fa-eye-slash eye-close"></i>
+    </div>
+    <script src="4.js"></script>
+  </body>
+</html>

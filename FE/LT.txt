@@ -1,0 +1,119 @@
+- class : . 
+- id : # 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html.body{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+vd: h1.td
+-css3: tạo hiệu ứng cho trang web
+
+1.ẩn các thuộc tính ở ngoài 
+     overflow: hidden;
+
+2.rê chuột vào có hình bàn tay
+    cursor: pointer;
+
+3.mờ chữ, mờ icon ( độ mờ từ 0-1)
+     opacity: 0.2; /* độ mờ từ 0-1*/
+
+4. dịch chuyển icon, chữ theo chiều X (chiều ngang)
+    transform: translateX(400px);
+
+5. độ chậm nhanh khi dịch chuyển
+     transition: 1s; /*độ chậm*/
+     
+6. bo cong góc
+    border-radius: 20px;
+
+
+7. position
+- cha: relative
+- con : absolute
+
+8. background-repeat: no-repeat;
+  background-size: cover;
+  - cho background fix với màn hình
+
+9. ẩn chiều ngang 
+    overflow-X:hidden;
+
+10. 
+    display:inline-block
+
+11.
+    z-index: 3 caí con đè nhau, cho mọt cái ra ngoài(góc 3d)
+
+12. Clear:box ; xóa các thuộc tính ảnh hưởng bởi khối khác
+
+13. 
+transition: all 1s ease  –  theo đó chúng ta sẽ làm bức ảnh được phóng to dần dần trong khoảng thời gian 1s chứ không bụp một cái to lên luôn
+
+14. Hinh tam giac (before - after)
+.phanduoi::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 12px transparent solid;
+    border-bottom-color: white;     
+    position: absolute;
+    top:-22px;   
+    right: 25px;
+}
+
+15. Giữ cho hình đứng yên không bị chạy khi lăn chuột
+ background-attachment: fixed; /* giuwx cho hinh dung yen khi lan chuot*/
+
+
+ 16. công thức ra giữa
+  left: 50%;
+  width: 100px;
+  margin-left: -50px;
+c2
+   left: 50%;
+    transform: translateX(-50%);
+
+
+17.1 đơn vị trong bootstrap tương ứng với 16px
+18.Giữ menu đứng yên
+    position: fix
+
+19. Đơn vị đo: 
+    em là dựa vào font-size của đốitượng cha 
+    rem dựa vào html ( k set thì mặc định là 16px)
+
+20. Gọn code : shift + alt + F
+
+
+21. b4(là ra bootstrap)
+    b4-nav-defautl 
+
+22. var  dùng cho toàn cục
+    let dùng cho cục bộ
+
+23. Ra dấu X
+    menu.classList.toggle('fa-times');
+
+24. Xổ ra list menu
+    
+header .navbar.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+25. querryselector : 
+
+26. ẩn cái hình :  visibility: hidden;
+
+27. background linear-gradient

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.slide, .slide .sl , .sl .hinh{
+    width: 100%;
+    height: 100%;
+}
+.sl .hinh{
+    background-size: cover;
+    animation: zoom 4s forwards;
+}
+@keyframes zoom{
+    from{transform:  scale(1.2); transition: 1s;}
+    to {transform: scale(1); transition: 1s;}
+
+}

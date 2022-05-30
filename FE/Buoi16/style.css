@@ -1,0 +1,62 @@
+*{margin: 0; padding: 0;}
+html, body{width: 100%;}
+.menu{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(50, 101, 196);
+
+}
+.phantu{
+    float: right;
+    margin-right: 10%;
+    margin-top: 15px;  
+    position: relative;  
+}
+.phantren{
+    position: absolute;
+    top: 10px;
+    right: 30px;    
+}
+.phantren .icon{
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+}
+.icontrang{
+    color: white;
+}
+.phanduoi{
+    position:absolute; 
+    width: 150px;
+    top: 45px;
+    right: 0px;  
+    border: 1px solid gray;    
+    border-radius: 5px;
+    visibility: hidden;
+}
+.phanduoi a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 6px 10px;
+    color: rgb(80, 76, 76);
+    border-bottom: 1px solid gray;
+    
+}
+.phanduoi.active{
+    visibility: visible;
+}   
+.phanduoi a:hover{
+    background-color:rgb(50, 101, 196);
+    color: white;
+}
+.phanduoi::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 12px transparent solid;
+    border-bottom-color: white;     
+    position: absolute;
+    top:-22px;   
+    right: 25px;
+}

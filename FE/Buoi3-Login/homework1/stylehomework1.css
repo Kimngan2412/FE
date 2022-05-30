@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+.formLogin {
+  width: 400px;
+  height: 300px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #f8efba;
+}
+.formLogin .header {
+  background-color: #c7ecee;
+  margin-top: -25px;
+  height: 50px;
+}
+.formLogin .header h1 {
+  font-family: "Smooch Sans", sans-serif;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+.formLogin .header i {
+  font-size: 25px;
+}
+.formLogin .body {
+  padding: 10px;
+}
+.formLogin .body p {
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 600;
+}
+.formLogin .body .txt {
+  width: 350px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(241, 238, 238);
+  border: none;
+}
+.formLogin .body ::placeholder {
+  color: gray;
+  font-size: 12px;
+}
+.formLogin .btn {
+  font-family: "Smooch Sans", sans-serif;
+  width: 80px;
+  height: 30px;
+  font-size: 14px;
+  background-color: #2c3a47;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+  cursor: pointer; /*re chuot vao ra hinh ban tay */
+}

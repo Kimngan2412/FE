@@ -1,0 +1,12 @@
+.char {
+  width: 1200px;
+  display: flex;
+}
+.con {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  /* width: 390px;
+  float: left; */
+}

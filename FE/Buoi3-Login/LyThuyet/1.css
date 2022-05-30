@@ -1,0 +1,11 @@
+h1 {
+  font-family: "Bitter", serif;
+}
+.icon {
+  font-size: 50px;
+}
+.icon:hover {
+  opacity: 0.2; /* độ mờ từ 0-1*/
+  transform: translateX(400px); /*dịch chuyển theo chiều X */
+  transition: 1s; /*độ chậm*/
+}

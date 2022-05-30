@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+}
+.menu {
+  width: 95%;
+  height: 60px;
+  background-color: #badc58;
+  padding-left: 5%;
+}
+.menu .khoi {
+  width: 100px;
+  height: 60px;
+  position: relative;
+  float: left;
+}
+.menu .khoi:hover {
+  background-color: #009432;
+}
+.menu .khoi:hover .phanduoi {
+  visibility: visible;
+}
+.menu a.phantren {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+.menu a.phantren i {
+  font-size: 30px;
+  display: block;
+  margin-top: 5px;
+}
+.menu .phanduoi {
+  width: 200px;
+  background-color: #a3cb38;
+  position: absolute;
+  top: 60px;
+  text-align: left;
+  visibility: hidden;
+}
+.menu ul li {
+  list-style: none;
+  border-bottom: 1px solid gray;
+}
+.menu ul li:hover {
+  background-color: #009432;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  display: block;
+}

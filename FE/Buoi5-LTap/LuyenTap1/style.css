@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  transform: 0.5s;
+}
+html,
+body {
+  width: 100%;
+}
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.khoi {
+  width: 24%;
+}
+.khoi .hinh {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.khoi .hinh .layer1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.khoi .hinh .layer2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.khoi:hover .layer2 {
+  opacity: 1;
+}
+.hinh .layer3 {
+  position: absolute;
+  top: 5px;
+  right: 3px;
+  width: 30px;
+
+  cursor: pointer;
+  opacity: 0;
+}
+.khoi:hover .layer3 {
+  opacity: 1;
+}
+.khoi .tieude {
+  margin-top: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid rgb(122, 121, 118);
+  display: inline-block;
+}
+.duoi .trai {
+  position: relative;
+  width: 180px;
+  height: 40px;
+  font-family: tahoma;
+  margin-top: 10px;
+  float: left;
+}
+.trai .lop1 {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  font-size: 13px;
+}
+.trai:hover .lop1 {
+  top: -20px;
+
+  opacity: 0;
+}
+.trai .lop2 {
+  position: absolute;
+  top: 20px;
+  left: 5px;
+  font-size: 13px;
+  opacity: 0;
+}
+.trai:hover .lop2 {
+  opacity: 1;
+  top: 0;
+}
+.duoi .phai {
+  width: 50px;
+  margin-top: 5px;
+  float: right;
+}
+.phai .maudo {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  float: left;
+}
+.phai .mauxanh {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  border-radius: 50%;
+  float: right;
+}
+
+.tour {
+  clear: both;
+  width: 100%;
+}
+.tour .khoi {
+  width: 22%;
+  height: 350px;
+}
+.tour .phantren {
+  width: 100%;
+  height: 250px;
+  text-decoration: none;
+  display: inline-block;
+}
+.tour .phantren .top {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.tour .phantren .hinh {
+  width: 100%;
+  height: 500px;
+}
+.tour .top .nen {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.582);
+  opacity: 0;
+}
+.phantren:hover .nen {
+  opacity: 1;
+}
+.phantren .diadiem {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 17px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.315);
+  padding: 7px;
+  transition: 1.5s;
+}
+
+.tour .khoi:hover .diadiem {
+  bottom: -50px;
+}
+.top .text {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  color: white;
+  opacity: 0;
+}
+.khoi:hover .text {
+  opacity: 1;
+}
+.phantren .bottom {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.644);
+  font-weight: bold;
+  background-color: rgba(128, 128, 128, 0.479);
+  padding: 5px;
+}
+.phantren .bottom:hover {
+  color: rgb(179, 144, 149);
+}

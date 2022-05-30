@@ -1,0 +1,21 @@
+.abc {
+  width: 150px;
+
+  height: 150px;
+  background-color: brown;
+  border-radius: 50%;
+  animation: zoom 3s infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(0.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.1);
+  }
+}
+

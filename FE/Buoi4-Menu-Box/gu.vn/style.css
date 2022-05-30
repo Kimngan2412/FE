@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.khoinho {
+  width: 280px;
+  height: 210px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin: 5px;
+}
+.khoinho .hinh {
+  width: 280px;
+  height: 210px;
+}
+.khoinho .nen {
+  width: 280px;
+  height: 210px;
+  background-color: rgba(250, 246, 246, 0.808);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.khoinho:hover .nen {
+  opacity: 0;
+}
+.khoinho .text {
+  position: absolute;
+  bottom: -55px;
+  left: 5px;
+  color: white;
+  margin-left: 5px;
+  transition: 0.5s;
+}
+.khoinho:hover .text {
+  bottom: 5px;
+  transition: 0.5s;
+}
+.khoilon {
+  width: 560px;
+  height: 420px;
+}
+.khoilon .hinh {
+  width: 560px;
+  height: 420px;
+}
+.khoilon .nen {
+  width: 560px;
+  height: 420px;
+}
