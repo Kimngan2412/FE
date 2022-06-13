@@ -71,24 +71,42 @@ html,body{
     position: absolute;
     z-index: 1;
     top:0;
+    opacity: 0;
 }
-.slide .tgduoi1{
-    top: -50%;    
+.ndslide ul li.active .slide .tgduoi1{
+    top: -50%;
+    animation: hientgduoi1 2s forwards;
 }
-.slide .tgduoi2{
+
+@keyframes hientgduoi1{
+    from{transform: translateX(-100%) translateY(100%); opacity: 0;}
+    to{transform: translateX(0) translateY(0); opacity: 0.2;}
+}
+.ndslide ul li.active .slide .tgduoi2{
     top: -20%;
+    animation: hientgduoi2 2s forwards;
+    animation-delay: 0.5s;
 }
-.slide .tgtren{
+@keyframes hientgduoi2{
+    from{transform: translateX(-100%) translateY(100%); opacity: 0;}
+    to{transform: translateX(0) translateY(0); opacity: 0.5;}
+}
+.ndslide ul li.active .slide .tgtren{
     right: -5%;
+    animation: hientgtren 2s forwards;
 }
-.slide .noidung{
+@keyframes hientgtren{
+    from{transform: translateX(100%) translateY(-100%); opacity: 0;}
+to{transform: translateX(0) translateY(0); opacity: 0.2;}
+}
+.ndslide ul li.active .slide .noidung{
     width: 20%;
     left: 10%;
     z-index: 3;
-    opacity: 1;
     top: 46%;
     color: wheat;
     transition: 0.6s;
+    opacity: 1;
 }
 .slide small{
     font-size: 30px;
@@ -101,3 +119,19 @@ html,body{
     font-size: 80px;
     font-weight: normal;
 }
+ul li.active .noidung h2,
+ul li.active .noidung small,
+ul li.active .noidung p,
+ul li.active .noidung .nut{
+    opacity: 0;
+    animation: hiennd 3s forwards;
+}
+
+@keyframes hiennd{
+    from{transform: translateX(-30%); opacity: 0;}
+    to{transform: translateX(0); opacity: 1;}
+}
+ul li.active .noidung h2 {animation-delay: 0.8s}
+ul li.active .noidung small{animation-delay: 1s}
+ul li.active .noidung p{animation-delay: 1.2s}
+ul li.active .noidung .nut{animation-delay: 1.4s}
