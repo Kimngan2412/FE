@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test hieu ung ket thuc</title>
+    <style>
+        .nut{
+            width: 80px;
+            height: 40px;
+            background-color: bisque;
+            align-items: center;
+            font-size: 18px;
+            padding: 5px 20px;
+            cursor: pointer;
+        }
+        .khoi {
+            width: 200px;
+            height: 200px;
+            background-color: violet;
+        }
+        .dichuyen{
+            animation: abc 4s forwards;
+        }
+        @keyframes abc {
+            from { transform:  translateX(0px);}
+            to {transform: translateX(400px);}       
+        }
+        .dixuong {
+            animation: xuong 4s forwards;
+        }
+        @keyframes xuong{
+            from { transform:  translateX(400px) translateY(0);}
+            to {transform: translateX(400px) translateY(300px);}   
+        }
+    </style>
+</head>
+<body>
+    <div class="nut">click</div>
+    <div class="khoi"></div>
+
+    <script>
+        var nut = document.querySelector('.nut');
+        var khoi = document.querySelector('.khoi');
+        khoi.addEventListener('webkitAnimationEnd', function(){
+            // console.log('ketthuc');
+            // khoi.classList.add('dixuong');
+            this.classList.add('dixuong');
+        })
+        nut.onclick = function(){
+            khoi.classList.add('dichuyen');
+        }
+    </script>
+</body>
+</html>
